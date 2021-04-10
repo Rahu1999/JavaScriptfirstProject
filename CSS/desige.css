@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #c2ccec;
+
+
+}
+#heding{
+
+    color: chartreuse;
+}
+.navbar {
+    border: 2px solid blue;
+    margin: 0px 20px;
+}
+.navbar ul li{
+
+    display: inline-block;
+    padding: 20px 15px;
+    color: chartreuse;
+    /* margin: ; */
+}
+.navbar ul li :hover{
+    border: 2px solid red;    
+    background-color: cornsilk;
+    color: black;
+    border-radius: 23px;
+    padding: 5px 10px;
+
+  
+}
+div ul li a{
+    color: #ff7600;
+    font-size: 20px;
+    text-decoration: none;
+}
+img{
+    width: 200px;
+    height: 200px;
+    
+}
+section input{
+            background-color: red;
+            padding: 10px 20px;   
+            border-radius: 20px;          
+}
+section input:hover{
+            background-color: black;
+            color: white;
+            cursor: pointer;
+}
+
